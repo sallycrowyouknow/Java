@@ -8,7 +8,6 @@ public class LetterGrade {
   
   public static void main(String [] args)
   {
-    //variables, one to take number grade and one to create letter grade.  
     int grade;
     int count = 0;
     int lowgrade = 100;
@@ -47,7 +46,6 @@ public class LetterGrade {
   {
     String letter = "";
     //If/else if/else statement to find letter grade and return it to user.  
-    //Includes a message at the end for invalid inputs.
     if(grade >= 90 && grade <= 100) {
       letter = "A";
     } else if (grade >= 80 && grade <= 89) {
